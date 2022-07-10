@@ -1,0 +1,31 @@
+[{
+    "constant": true,
+    "inputs": [{
+        "name": "date",
+        "type": "string"
+    }],
+    "name": "getIpfsAddress",
+    "outputs": [{
+        "name": "",
+        "type": "string"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function",
+    "signature": "0xee2140c5"
+}, {
+    "constant": false,
+    "inputs": [{
+        "name": "date",
+        "type": "string"
+    }, {
+        "name": "ipfs",
+        "type": "string"
+    }],
+    "name": "setIpfsAddress",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "signature": "0xcbd0042f"
+}]

@@ -1,0 +1,35 @@
+{
+  "name": "express-prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "api-key-auth": "^0.2.3",
+    "body-parser": "^1.19.1",
+    "caver-js": "^1.0.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-asyncify": "^1.0.1",
+    "helmet": "^4.6.0",
+    "ipfs-http-client": "32.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "node-schedule": "^2.1.0",
+    "nodemon": "^2.0.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "truffle": "^5.5.4",
+    "truffle-hdwallet-provider-klaytn": "^1.4.2",
+    "web3": "^1.7.1"
+  }
+}
